@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <meta
+  name="description"
+  content="Darwin Catbagan — Personal portfolio showcasing projects, skills, experience, and contact information."
+/>
+
+    <script>
+      (() => {
+        const storageKey = "portfolio-theme";
+        const savedTheme = localStorage.getItem(storageKey);
+
+        const systemTheme = window.matchMedia(
+          "(prefers-color-scheme: light)"
+        ).matches
+          ? "light"
+          : "dark";
+
+        const theme =
+          savedTheme === "light" || savedTheme === "dark"
+            ? savedTheme
+            : systemTheme;
+
+        document.documentElement.classList.add(theme);
+        document.documentElement.style.colorScheme = theme;
+      })();
+    </script>
+
+    <title>Darwin Catbagan | Web Developer</title>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script
+      type="module"
+      src="/src/main.jsx"
+    ></script>
+  </body>
+</html>
