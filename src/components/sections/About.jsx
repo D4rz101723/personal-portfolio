@@ -61,13 +61,13 @@ function About() {
     >
       <div className="container-custom">
         {/* Header */}
-        <div className="mx-auto mb-14 max-w-3xl text-center sm:mb-8">
-          <div className="mb-4 flex items-center justify-center gap-3 font-['Orbitron'] text-xs font-semibold uppercase tracking-[0.2em] text-(--primary)">
-            <span className="h-px w-8 bg-linear-to-r from-transparent to-(--primary)" />
+        <div className="mx-auto mb-14 max-w-2xl text-center sm:mb-8">
+          <div className="mb-2 flex items-center justify-center gap-3 font-['Orbitron'] text-xs font-semibold uppercase tracking-[0.2em] text-(--primary)">
+            <span className="h-px w-7 bg-linear-to-r from-transparent to-(--primary)" />
             <span>About Myself</span>
             <span className="h-px w-8 bg-linear-to-l from-transparent to-(--primary)" />
           </div>
-          <h2 className="font-['Orbitron'] text-4xl font-bold leading-tight tracking-tight text-(--text) sm:text-5xl lg:text-6xl">
+          <h2 className="font-['Orbitron'] text-4xl font-bold leading-tight tracking-tight text-(--text) sm:text-4xl">
             Get to Know <span className="gradient-text">Me</span>
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-(--text-secondary) sm:text-base">
@@ -88,7 +88,7 @@ function About() {
               <div className="mx-auto mb-7 flex justify-center">
                 <div className="relative">
                   <div className="absolute -inset-2 rounded-full bg-linear-to-r from-(--primary) via-(--secondary) to-(--accent) opacity-30 blur-md" />
-                  <div className="relative h-40 w-40 overflow-hidden rounded-full border-2 border-(--primary)/40 bg-(--surface-light) shadow-(--shadow)">
+                  <div className="relative h-40 w-40 overflow-hidden rounded-full border-2 border-(--primary)/25 bg-(--surface-light) shadow-(--shadow)">
                     <img
                       src="/images/DarzCatbagan.png"
                       alt="Darwin Catbagan"
@@ -107,16 +107,16 @@ function About() {
                 </p>
               </div>
 
-              <div className="mt-6 flex items-center gap-3 rounded-xl border border-(--border) bg-(--background)/40 px-4 py-3">
+              <div className="mt-3 flex items-center gap-3 rounded-xl border border-(--border) bg-(--background)/50 px-5 py-2">
                 <span className="relative flex h-3 w-3">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-(--primary) opacity-50" />
-                  <span className="relative inline-flex h-3 w-3 rounded-full bg-(--primary)" />
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-(--secondary) opacity-50" />
+                  <span className="relative inline-flex h-3 w-3 rounded-full bg-(--accent2)" />
                 </span>
                 <div>
                   <p className="text-xs font-semibold text-(--text)">
                     Available for opportunities
                   </p>
-                  <p className="mt-0.5 text-[10px] text-(--text-muted)">
+                  <p className="mt-1 text-[10px] text-(--text-muted)">
                     Open to interesting projects and collaborations
                   </p>
                 </div>

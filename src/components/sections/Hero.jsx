@@ -26,7 +26,7 @@ function Hero() {
             </div>
 
             {/* Greeting */}
-            <p className="mb-4 font-['Orbitron'] text-sm font-medium uppercase tracking-[0.25em] text-(--primary) sm:text-base">
+            <p className="font-['Orbitron'] text-sm font-medium uppercase tracking-[0.25em] text-(--primary) sm:text-base">
               Hello, I'm
             </p>
 
@@ -36,23 +36,23 @@ function Hero() {
             </h1>
 
             {/* Typing Role */}
-            <div className="mt-6">
-              <h2 className="font-['Orbitron'] text-xl font-semibold leading-tight text-(--text-secondary) sm:text-2xl md:text-3xl">
+            <div className="mt-4">
+              <h2 className="font-['Orbitron'] text-xl font-semibold leading-tight text-(--text-secondary)">
                 <TypingText
                   words={[
                     "Software Developer",
                     "React Developer",
                     "Frontend Developer",
-                    "Full-Stack Developer",
+                    "IT Support",
                   ]}
                   typingSpeed={90}
-                  deletingSpeed={50}
+                  deletingSpeed={40}
                   pauseDuration={1800}
                 />
               </h2>
 
               {/* Technologies */}
-              <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-(--text-muted) sm:text-base">
+              <div className="mt-3 flex flex-wrap gap-x-3 gap-y-2 text-sm text-(--text-muted) sm:text-base">
                 <span>React.js</span>
 
                 <span className="text-(--primary)">•</span>
