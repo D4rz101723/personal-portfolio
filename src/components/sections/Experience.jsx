@@ -24,32 +24,32 @@ function Experience() {
         "Providing technical assistance to minimize downtime and ensure smooth business operations.",
       ],
     },
-    {
-      period: "2019 – 2023",
-      role: "Previous Role",
-      company: "Beacon Solutions, Inc.",
-      location: "Enchanted Kingdom",
-      current: false,
-      description:
-        "Professional experience at Beacon Solutions, Inc. contributing to technical operations and business support.",
-      responsibilities: [
-        "Role details can be added here.",
-        "Key responsibilities and achievements can be added here.",
-      ],
-    },
-    {
-      period: "2017 – 2019",
-      role: "Previous Role",
-      company: "Beacon Solutions, Inc.",
-      location: "Enchanted Kingdom",
-      current: false,
-      description:
-        "Professional experience at Beacon Solutions, Inc. supporting business and technical operations.",
-      responsibilities: [
-        "Role details can be added here.",
-        "Key responsibilities and achievements can be added here.",
-      ],
-    },
+    // {
+    //   period: "2019 – 2023",
+    //   role: "Previous Role",
+    //   company: "Beacon Solutions, Inc.",
+    //   location: "Enchanted Kingdom",
+    //   current: false,
+    //   description:
+    //     "Professional experience at Beacon Solutions, Inc. contributing to technical operations and business support.",
+    //   responsibilities: [
+    //     "Role details can be added here.",
+    //     "Key responsibilities and achievements can be added here.",
+    //   ],
+    // },
+    // {
+    //   period: "2017 – 2019",
+    //   role: "Previous Role",
+    //   company: "Beacon Solutions, Inc.",
+    //   location: "Enchanted Kingdom",
+    //   current: false,
+    //   description:
+    //     "Professional experience at Beacon Solutions, Inc. supporting business and technical operations.",
+    //   responsibilities: [
+    //     "Role details can be added here.",
+    //     "Key responsibilities and achievements can be added here.",
+    //   ],
+    // },
   ];
 
   return (
