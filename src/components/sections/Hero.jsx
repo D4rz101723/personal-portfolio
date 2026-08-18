@@ -52,7 +52,7 @@ function Hero() {
               </h2>
 
               {/* Technologies */}
-              <div className="mt-3 flex flex-wrap gap-x-3 gap-y-2 text-sm text-(--text-muted) sm:text-base">
+              <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-(--text-muted) sm:text-base">
                 <span>React.js</span>
 
                 <span className="text-(--primary)">•</span>
